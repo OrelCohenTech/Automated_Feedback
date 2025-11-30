@@ -1,4 +1,4 @@
-# Beyond Grading: Diagnostic Misconception Analysis via GenAI 🎓🤖
+# Beyond Grading: Diagnostic Misconception Analysis via GenAI 
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
