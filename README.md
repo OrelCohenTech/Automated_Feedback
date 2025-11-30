@@ -5,7 +5,7 @@
 ![HuggingFace](https://img.shields.io/badge/Transformers-4.30-yellow)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-green)
 
-> **Course Project:** Deep Learning & NLP | **Focus:** Educational Data Mining & Synthetic Data Generation
+> **Course Project:**  NLP | **Focus:** Educational Data Mining & Synthetic Data Generation
 
 ---
 
