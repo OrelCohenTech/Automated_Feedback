@@ -16,10 +16,6 @@ This project aims to shift from **Grading** to **Diagnosis**, leveraging Generat
 ## Problem Statement
 The goal is to develop an NLP classification model that analyzes free-text student answers in STEM domains and classifies them into diagnostic categories based on conceptual understanding. Unlike standard sentiment analysis, this task requires deep semantic alignment with expert knowledge.
 
-## Visual Abstract
-*(Place your pipeline diagram here - e.g., image of Data Generation -> Processing -> Model -> Output)*
-![Pipeline Diagram](assets/pipeline_diagram.png)
-
 ## Datasets 
 We utilize a hybrid dataset strategy combining real-world educational data with synthetic augmentation:
 1.  **Real Data (Source):** [SciEntsBank](https://github.com/SebOchs/SciEntsBank) - A benchmark dataset containing expert-labeled student answers to science questions.
