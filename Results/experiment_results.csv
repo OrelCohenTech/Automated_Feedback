@@ -1,0 +1,4 @@
+question,student_answer,correct_answer,score
+What is the time complexity of binary search?,O(log n),O(log n),1.0
+What is the worst case of quicksort?,O(n^2),O(n^2),1.0
+Explain hash tables,Stores data in a tree,Stores data in a table with keys,0.0
