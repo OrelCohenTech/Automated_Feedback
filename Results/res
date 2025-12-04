@@ -1,8 +1,17 @@
 --- Example 1 ---
-[[{'label': 'NEGATIVE', 'score': 0.9963527917861938}, {'label': 'POSITIVE', 'score': 0.003647217061370611}]]
+Question: What is the role of a prototype program in problem solving?
+Instructor Answer: To simulate the behaviour of portions of the desired software product.
+Student Answer: High risk problems are address in the prototype program to make sure that the program is feasible.  A prototype may also be used to show a company that the software can be possibly programmed.<br><br>
+Similarity score: 0.5210
 
 --- Example 2 ---
-[[{'label': 'NEGATIVE', 'score': 0.8961565494537354}, {'label': 'POSITIVE', 'score': 0.10384342074394226}]]
+Question: What is the role of a prototype program in problem solving?
+Instructor Answer: To simulate the behaviour of portions of the desired software product.
+Student Answer: To simulate portions of the desired final product with a quick and easy program that does a small specific job. It is a way to help see what the problem is and how you may solve it in the final project.
+Similarity score: 0.8124
 
 --- Example 3 ---
-[[{'label': 'NEGATIVE', 'score': 0.9978833794593811}, {'label': 'POSITIVE', 'score': 0.0021166601218283176}]]
+Question: What is the role of a prototype program in problem solving?
+Instructor Answer: To simulate the behaviour of portions of the desired software product.
+Student Answer: A prototype program simulates the behaviors of portions of the desired software product to allow for error checking.
+Similarity score: 0.7611
