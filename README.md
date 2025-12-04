@@ -1,4 +1,4 @@
-# Beyond Grading: Automated Answer Correctness Evaluation 🎓🤖
+# Beyond Grading: Automated Answer Correctness Evaluation 
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
@@ -9,13 +9,13 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **Beyond Grading** is an NLP framework designed to automate the evaluation of open-ended student answers in STEM domains (Computer Science, Algorithms, Data Structures). Unlike traditional Keyword Matching or simple binary classification, our system leverages **Deep Learning (Transformer-based Cross-Encoders)** and **GenAI Augmentation** to assess the *semantic correctness* of a student's response.
 
 The goal is to solve the "Scalability vs. Quality" dilemma in modern education by providing automated, accurate, and consistent grading scores (0-1) that reflect deep understanding.
 
-## 🚀 Key Features & Novelty
+##  Key Features & Novelty
 
 ### 1. Cross-Encoder Architecture (Triple Context)
 We move beyond simple cosine similarity. Our model processes three inputs simultaneously to capture nuance:
@@ -23,7 +23,7 @@ We move beyond simple cosine similarity. Our model processes three inputs simult
 * **Ground Truth:** The Expert/Reference Answer.
 * **Target:** The Student's Response.
 
-### 2. Adversarial Synthetic Data Strategy 🧬
+### 2. Adversarial Synthetic Data Strategy 
 Addressing the lack of labeled educational data and class imbalance, we developed a **GenAI Data Pipeline**:
 * **Hard Negatives:** We use **GPT-4o** to deliberately generate "plausible but wrong" answers (responses that use correct terminology but contain logical flaws).
 * **Implicit Labeling:** Labels are assigned automatically based on the generation prompt (e.g., specific misconception prompts = low score), removing the need for manual annotation.
@@ -33,7 +33,7 @@ The model is fine-tuned on a hybrid dataset (Real + Synthetic) to predict a cont
 
 ---
 
-## 🛠️ Tech Stack & Pipeline
+##  Tech Stack & Pipeline
 
 
 
@@ -49,7 +49,7 @@ The model is fine-tuned on a hybrid dataset (Real + Synthetic) to predict a cont
 
 ---
 
-## 📂 Dataset Specification
+##  Dataset Specification
 
 We utilize a hybrid data strategy:
 
@@ -60,7 +60,7 @@ We utilize a hybrid data strategy:
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -80,7 +80,7 @@ We utilize a hybrid data strategy:
 
 ---
 
-## 🏃 Usage
+##  Usage
 
 ### 1. Data Generation (Synthetic)
 Generate new "Hard Negative" student answers using the LLM agent:
