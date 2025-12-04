@@ -60,29 +60,4 @@ We utilize a hybrid data strategy:
 
 ---
 
-##  Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/beyond-grading.git](https://github.com/your-username/beyond-grading.git)
-    cd beyond-grading
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **(Optional) Set up OpenAI API key** (for data generation):
-    ```bash
-    export OPENAI_API_KEY='your-api-key-here'
-    ```
-
----
-
-##  Usage
-
-### 1. Data Generation (Synthetic)
-Generate new "Hard Negative" student answers using the LLM agent:
-```bash
-python src/data_generation.py --topic "Data Structures" --count 500
