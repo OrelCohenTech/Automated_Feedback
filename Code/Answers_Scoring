@@ -31,7 +31,7 @@ inputs = [
 
 # 4. Load a HuggingFace model (example: DistilBERT)
 print("Loading model...")
-model_name = "sentence-transformers/all-MiniLM-L6-v2"
+model_name = "distilbert-base-uncased-finetuned-sst-2-english"
 
 classifier = pipeline(
     "text-classification",
