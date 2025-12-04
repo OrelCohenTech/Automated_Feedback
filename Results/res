@@ -1,1 +1,8 @@
+--- Example 1 ---
+[[{'label': 'NEGATIVE', 'score': 0.9963527917861938}, {'label': 'POSITIVE', 'score': 0.003647217061370611}]]
 
+--- Example 2 ---
+[[{'label': 'NEGATIVE', 'score': 0.8961565494537354}, {'label': 'POSITIVE', 'score': 0.10384342074394226}]]
+
+--- Example 3 ---
+[[{'label': 'NEGATIVE', 'score': 0.9978833794593811}, {'label': 'POSITIVE', 'score': 0.0021166601218283176}]]
