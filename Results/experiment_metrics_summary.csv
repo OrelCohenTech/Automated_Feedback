@@ -1,0 +1,3 @@
+Model,Pearson_Correlation,RMSE,Mean_Absolute_Error,Status
+Baseline (SBERT),0.1192,0.4526,0.3812,Completed
+Final Model (DeBERTa-V3),0.7089,0.4042,0.2915,Optimized
