@@ -1,0 +1,11 @@
+ID,Question,Student_Answer,Ground_Truth_Score,DeBERTa_Prediction
+1,What is a Linked List?,A sequence of nodes where each points to next,2.0,1.95
+2,What is a Linked List?,A list of arrays,0.0,0.12
+3,Explain a Stack.,Last in first out structure,2.0,1.98
+4,Explain a Stack.,First in first out structure,0.0,0.05
+5,What is a Hash Table?,A table with keys and values using a hash function,2.0,1.91
+6,What is a Binary Tree?,A tree where every node has exactly two kids,1.0,1.15
+7,What is a Binary Tree?,It is a linear list of nodes,0.0,0.10
+8,What is Recursion?,A function that invokes itself,2.0,1.94
+9,What is Recursion?,A loop that repeats,0.0,0.15
+10,Explain O(1) time.,It means the time doesn't change with input size,2.0,1.88
